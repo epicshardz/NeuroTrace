@@ -17,7 +17,7 @@ https://github.com/ollama/ollama
 Default model is phi4, but you can changes as needed.
 
 ## Installation
-First download the repo to <you directory>
+First download the repo to "your directory"
 Then run the following command in your project
 Install the package using pip:
 ```bash
