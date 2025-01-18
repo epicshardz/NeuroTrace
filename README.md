@@ -11,6 +11,11 @@ Key features:
 - Advanced log interception and analysis
 - Local AI processing using Ollama - no data leaves your machine
 
+## Demo
+Watch NeuroTrace in action:
+
+https://github.com/epicshardz/NeuroTrace/raw/main/NeuroTraceDemo.mp4
+
 ## Installation
 Ollama is the expert running the llm behind the scenes so the project assumes you have followed the steps provided by the Ollama team here:
 https://github.com/ollama/ollama
