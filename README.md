@@ -14,11 +14,7 @@ Key features:
 ## Video Demo of NeuroTraceAI in action
 Watch NeuroTrace in action:
 
-<video width="600" controls>
-  <source src="https://github.com/epicshardz/NeuroTrace/raw/main/NeuroTraceDemo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+<video controls src="NeuroTraceDemo-1.mp4" title="Title"></video>
 
 ## Installation
 Ollama is the expert running the llm behind the scenes so the project assumes you have followed the steps provided by the Ollama team here:
