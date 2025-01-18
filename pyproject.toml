@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "neurotrace"
+version = "0.1.0"
+description = "NeuroTrace 🐍 - AI-driven debugging companion"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0"
+requests = "^2.28"
+typer = "^0.6"
+graphviz = "^0.20.1"
+urllib3 = "^2.0.0"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.extras]
+test = ["pytest", "coverage", "flake8", "black"]
+
+[tool.poetry.scripts]
+neurotrace = "neurotrace.cli.cli:app"
+
+[tool.poetry.group.test]
+optional = true
+dependencies = [
+    "pytest>=7.0",
+    "coverage>=6.0",
+    "flake8>=6.0",
+    "black>=23.0"
+]
+
+[tool.coverage.run]
+source = ["neurotrace"]
+omit = ["tests/*", "**/__init__.py"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if __name__ == .__main__.:",
+    "raise NotImplementedError",
+    "pass",
+    "raise ImportError"
+]
+fail_under = 80
+
+[tool.black]
+line-length = 127
+target-version = ['py38']
+include = '\.pyi?$'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
