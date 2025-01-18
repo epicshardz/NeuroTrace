@@ -87,7 +87,7 @@ engine = DebuggerEngine(
     ai_adapter_config={"config": ollama_config}
 )
 
-What is Neuro Trace AI Coin (NTAI)?
+### What is Neuro Trace AI Coin (NTAI)?
 Neuro Trace AI is associated with the NTAI coin, which is designed to support funding for experimental research and development of advanced features within the AI platform. While not offering financial incentives or returns, the coin reflects the commitment to driving innovation and growth in the AI ecosystem.
 
 For more details, visit the whitepaper: [Neuro Trace AI Whitepaper](https://docs.google.com/document/d/1D2uIFPc0a2PgDG3uRbGnbcaSO0QcRwmygBrQWdDbjTc/edit?usp=sharing)
