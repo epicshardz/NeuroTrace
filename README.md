@@ -17,10 +17,11 @@ https://github.com/ollama/ollama
 Default model is phi4, but you can changes as needed.
 
 ## Installation
-
+First download the repo to <you directory>
+Then run the following command in your project
 Install the package using pip:
 ```bash
-pip install neurotrace
+pip install <your neurotrace directory>/neurotrace
 ```
 
 ## Configuration
