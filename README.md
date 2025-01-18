@@ -13,8 +13,7 @@ Key features:
 
 ## Video Demo of NeuroTraceAI in action
 Watch NeuroTrace in action:
-<video controls src="NeuroTraceDemo.mp4" title="Title"></video>
-
+[![Demo](https://img.youtube.com/vi/OwtPNvdxMyY/0.jpg)](https://www.youtube.com/watch?v=OwtPNvdxMyY)
 
 ## Installation
 Ollama is the expert running the llm behind the scenes so the project assumes you have followed the steps provided by the Ollama team here:
