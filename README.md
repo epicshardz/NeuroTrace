@@ -13,6 +13,7 @@ Key features:
 
 ## Video Demo of NeuroTraceAI in action
 Watch NeuroTrace in action:
+
 [![Demo](https://img.youtube.com/vi/OwtPNvdxMyY/0.jpg)](https://www.youtube.com/watch?v=OwtPNvdxMyY)
 
 ## Installation
